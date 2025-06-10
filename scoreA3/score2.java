@@ -1,9 +1,11 @@
 package scoreA3;
 
-public class score {
+public class score2 {
     protected int score;
 
-    public score (int score) {
+    public score2(){}
+
+    public score2 (int score) {
         this.score = score;
     }
 
