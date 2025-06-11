@@ -114,6 +114,12 @@ public class score2 {
         }
     }
 
+    public void simularAnosPassados(int anos) {
+        for (RegistroAcao acao : historico) {
+        acao.data = acao.data.minusYears(anos);
+    }
+}
+
     
     public void registrarEstorno() {
         historico.removeIf(acao -> acao.tipo.equals("semEstorno"));
